@@ -1,4 +1,4 @@
-# Willhaben.at Jobs Feed — Salary & Contact Info
+# Willhaben Jobs Feed
 
 Extract structured job listings from [willhaben.at](https://willhaben.at) — Austria's largest classifieds platform with 15,000+ active job postings. Full salary data (mandatory in Austria), direct contact info, company profiles, and 7 search filters.
 
