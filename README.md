@@ -2,50 +2,31 @@
 
 Extract structured job listings from [willhaben.at](https://willhaben.at) — Austria's largest classifieds platform with 15,000+ active job postings. Full salary data (mandatory in Austria), direct contact info, company profiles, and 7 search filters.
 
-**[Run on Apify →](https://apify.com/blackfalcondata/willhaben-scraper)**
+**[Willhaben Scraper on Apify →](https://apify.com/blackfalcondata/willhaben-scraper)**
 
 ---
 
 ## Key features
 
-🔍 **Smart search with 7 filters**
 
-Search by keyword, location, Bundesland, professional field, employment type, position level, company type, and posting recency. Browse all 15,000+ jobs without a keyword.
 
-💰 **Austrian salary transparency**
+**Search with filters** — Search by keyword and location. Filter by region (bundesland), field / sector, employment type, and more.
 
-Austria requires employers to disclose minimum salary. Every listing includes salary amount, time frame (monthly/yearly), and an overpay indicator when the company pays above the collective agreement.
+**Detail enrichment** — Fetch full job descriptions, salary data, employer profiles, contact information for each listing.
 
-📄 **Full detail enrichment**
-
-Fetch contact name and email, company industry, address, employee count, founding year, language requirements, remote work availability, and contract expiry date.
-
-🔄 **Incremental mode**
-
-Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
-
-⚡ **Compact output for AI agents**
-
-Core-fields-only mode optimized for MCP and AI agent workflows. Description truncation to control output size.
+**Incremental mode** — Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
 
 ---
 
 ## Use cases
 
-**Recruiting and talent intelligence**
-Monitor Austrian job market trends by role, region, or sector. Track which companies are hiring, what salaries they offer, and how quickly positions get filled.
 
-**Salary benchmarking**
-Austria's mandatory salary disclosure makes willhaben.at a goldmine for compensation research. Compare salaries by region, sector, position level, and company size.
 
-**Lead generation for HR tech**
-Identify companies with open positions and extract direct contact details. Filter by company type to focus on direct employers vs. staffing agencies.
+**Data pipeline automation**
+Integrate with your ETL pipeline to collect structured listings from willhaben.at on a schedule. Export to CSV, JSON, or directly to your database. Use compact mode to control output size.
 
-**Market research for Austria**
-Track employment trends across Austria's 9 Bundesländer. Analyze which sectors are growing, which regions have labor shortages, and how remote work adoption is progressing.
-
-**AI and LLM workflows**
-Use compact mode and description truncation to feed structured Austrian job data into AI agents, MCP servers, and LLM pipelines without exceeding token budgets.
+**Market research**
+Monitor listings, track trends, and analyze market dynamics with structured, deduplicated data from willhaben.at.
 
 ---
 
@@ -122,15 +103,11 @@ Compact mode outputs only the core fields (ID, title, company, location, salary,
 
 ## Related products by Black Falcon Data
 
-| Product | Description |
-|:--------|:------------|
-| [StepStone Jobs API](https://github.com/BlackFalconData-org/stepstone-jobs-api) | Job listings from 18 European portals |
-| [Company Jobs Tracker](https://github.com/BlackFalconData-org/company-jobs-tracker-api) | Track new/removed jobs per company |
-| [Indeed Jobs Feed](https://github.com/BlackFalconData-org/indeed-jobs-feed) | Indeed job listings with salary data |
-| [Glassdoor Jobs Feed](https://github.com/BlackFalconData-org/glassdoor-jobs-feed) | Glassdoor listings with company ratings |
-| [Arbeitsagentur Jobs Feed](https://github.com/BlackFalconData-org/arbeitsagentur-jobs-feed) | Germany's federal job portal (1M+ listings) |
-| [Naukri Jobs Feed](https://github.com/BlackFalconData-org/naukri-jobs-feed) | India's largest job portal |
-| [Bilbasen Scraper](https://github.com/BlackFalconData-org/bilbasen-scraper) | Denmark's largest car marketplace |
+
+
+- [StepStone Scraper](https://github.com/BlackFalconData-org/stepstone-scraper) — Job listings from 18 European portals
+- [Indeed Job Scraper](https://github.com/BlackFalconData-org/indeed-job-scraper) — Indeed job listings with salary data
+- [Glassdoor Job Scraper](https://github.com/BlackFalconData-org/glassdoor-job-scraper) — Glassdoor listings with company ratings
 
 ---
 
