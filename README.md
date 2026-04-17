@@ -2,11 +2,12 @@
 
 Extract structured job listings from [willhaben.at](https://willhaben.at) — Austria's largest classifieds platform with 15,000+ active job postings. Full salary data (mandatory in Austria), direct contact info, company profiles, and 7 search filters.
 
-**[Willhaben Scraper on Apify →](https://apify.com/blackfalcondata/willhaben-scraper)**
+**[Willhaben Job Scraper - Austria’s Largest Job Portal on Apify →](https://apify.com/blackfalcondata/willhaben-scraper)**
 
 ---
 
 ## Key features
+
 
 
 
@@ -19,6 +20,7 @@ Extract structured job listings from [willhaben.at](https://willhaben.at) — Au
 ---
 
 ## Use cases
+
 
 
 
@@ -102,6 +104,7 @@ Compact mode outputs only the core fields (ID, title, company, location, salary,
 ---
 
 ## Related products by Black Falcon Data
+
 
 
 
